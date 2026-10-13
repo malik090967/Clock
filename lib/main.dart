@@ -23,7 +23,7 @@ class ClockStore {
   static List<Alarm> alarms = [];
   static Set<String> worldCities = {'الرياض', 'لندن', 'نيويورك', 'طوكيو'};
 
-  static Future<void> init() async {
+  static Future<void> i() async {
     prefs = await SharedPreferences.getInstance();
     isDark = prefs.getBool(_kDark) ?? true;
 
